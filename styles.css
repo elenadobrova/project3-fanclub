@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+}
+
+#myVideo{
+    width: 100%;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: #0D9276;
+    padding: 10px;
+}
+
+.item{
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    text-transform: uppercase;
+    color: #12372A;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-about{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0D9276;
+    padding: 60px;
+}
+
+.about-us{
+    align-self: center;
+    padding: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.li{
+    padding: 10px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #FCFFE7;
+}
+
+.two{
+    background-color: #0D9276;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.two-name{
+    color: #12372A;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+del{
+    font-size: 20px;
+    color: #12372A;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+ins{
+    display: inline-block;
+    transform: rotate(-7deg);
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #12372A;
+    text-decoration: none;
+}
+
+.price{
+    font-size: 20px;
+    color: #12372A;
+    font-family: "Montserrat", sans-serif;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    background-color: #0D9276;
+    padding: 50px;
+}
+.footer{
+    background-color: #0D9276;
+    padding: 5px;
+}
+
+a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+button{
+    padding: 30px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: red;
+}
+
+@media all and (max-width: 820px) {
+    .wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-about{
+        flex-wrap: wrap;
+    }
+    .wrapper{
+        padding: 0;
+    }
+    div.mapouter, div.gmap_canvas, iframe {
+        width: 100%;
+    } 
+}
+@media all and (max-width: 500px) {
+    img{
+        width: 100%;
+    }
+    span{
+        padding: 10px;
+        margin: 10px;
+    }
+    .reason-block{
+        padding: 10px;
+    }
+}
+
